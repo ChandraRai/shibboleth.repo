@@ -16,11 +16,11 @@ mirrorlist=https://shibboleth.net/cgi-bin/mirrorlist.cgi/CentOS_7
 gpgcheck=1
 
 # Uncomment this for centos79
-# gpgkey=https://shibboleth.net/downloads/service-provider/RPMS/repomd.xml.key
+gpgkey=https://shibboleth.net/downloads/service-provider/RPMS/repomd.xml.key
 
 # Uncomment this for CentOS Stream release 9
-gpgkey=https://shibboleth.net/downloads/service-provider/RPMS/repomd.xml.key \
-   https://shibboleth.net/downloads/service-provider/RPMS/cantor.repomd.xml.key
+# gpgkey=https://shibboleth.net/downloads/service-provider/RPMS/repomd.xml.key 
+  # https://shibboleth.net/downloads/service-provider/RPMS/cantor.repomd.xml.key
 
 enabled=1
 
