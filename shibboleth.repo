@@ -1,26 +1,26 @@
 [shibboleth]
 # Uncomment this for Centos_79
-# name=Shibboleth (CentOS_7)
+name=Shibboleth (CentOS_7)
 
 # Uncomment this for CentOS Stream release 9
-name=Shibboleth (Rocky/CentOS/RHEL 9)
+# name=Shibboleth (Rocky/CentOS/RHEL 9)
 
 type=rpm-md
 
 # Uncomment this for centos79
-# mirrorlist=https://shibboleth.net/cgi-bin/mirrorlist.cgi/CentOS_7
+mirrorlist=https://shibboleth.net/cgi-bin/mirrorlist.cgi/CentOS_7
 
 # Uncomment this for CentOS Stream release 9
-mirrorlist=https://shibboleth.net/cgi-bin/mirrorlist.cgi/rockylinux9
+# mirrorlist=https://shibboleth.net/cgi-bin/mirrorlist.cgi/rockylinux9
 
 gpgcheck=1
 
 # Uncomment this for centos79
-# gpgkey=https://shibboleth.net/downloads/service-provider/RPMS/repomd.xml.key
+gpgkey=https://shibboleth.net/downloads/service-provider/RPMS/repomd.xml.key
 
 # Uncomment this for CentOS Stream release 9
-gpgkey=https://shibboleth.net/downloads/service-provider/RPMS/repomd.xml.key \
-       https://shibboleth.net/downloads/service-provider/RPMS/cantor.repomd.xml.key
+# gpgkey=https://shibboleth.net/downloads/service-provider/RPMS/repomd.xml.key \
+   #    https://shibboleth.net/downloads/service-provider/RPMS/cantor.repomd.xml.key
 
 enabled=1
 
