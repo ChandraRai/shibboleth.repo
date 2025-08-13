@@ -10,4 +10,4 @@ chmod +x /etc/shibboleth/shibd-redhat
 /etc/shibboleth/shibd-redhat start
 
 # Start httpd
-exec httpd -DFOREGROUND
+exec httpd -D FOREGROUND
